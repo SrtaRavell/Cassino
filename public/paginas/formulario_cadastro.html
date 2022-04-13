@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/cassino/src/App.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="container_formulario">
+        <div class="titulo_formulario">
+            <h2>Cadastre-se na NURV</h2>
+        </div>
+        <form class="div_formulario" method="post">
+            <div class="form_nome">
+                <label for="form_nome">Nome completo</label>
+                <input type="text" id="form_nome" placeholder="Ex. João Silva">
+            </div>
+            <div class="form_telefone">
+                <label for="form_telefone">Telefone</label>
+                <input type="tel" id="form_telefone" pattern="[0-9]{11}" placeholder="Ex. (00) 9 0000-0000">
+            </div>
+            <div class="form_nascimento">
+                <label for="form_nascimento">Data de nascimento</label>
+                <input type="date" id="form_nascimento">
+            </div>
+            <div class="form_email">
+                <label for="form_email">Email</label>
+                <input type="email" id="form_email" placeholder="Ex. joaodasilva@email.com">
+            </div>
+            <div class="form_senha" id="password1">
+                <label for="input_password1">Senha</label>
+                <input type="password" id="input_password1">
+            </div>
+            <div class="form_senha" id="password2">
+                <label for="input_password2">Confirme a senha</label>
+                <input type="password" id="input_passeord2">
+            </div>
+            <button type="submit">Cadastrar</button>
+            <div class="outras_opcoes_login">
+                <div class="titulo_outras_opcoes">Entrar com</div>
+                <div class="outras_opcoes">
+                   <a href="#" class="opcao_google">
+                       <img src="/cassino/public/imgs/google.png" alt="google">
+                   </a>
+                <a href="#" class="opcao_facebook">
+                    <img src="/cassino/public/imgs/instagram.png" alt="facebook">
+                </a> 
+                </div>
+                <div class="info_termos_e_condicoes">
+                    Ao se inscrever você concorda com os <a href="#">Termos e condições</a>.
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
