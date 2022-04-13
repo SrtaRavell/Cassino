@@ -1,7 +1,7 @@
-function click_modo() {
+function modo_manual() {
     const manual = document.querySelector('.manual')
     const auto = document.querySelector('.auto')
-    
+
 
     manual.addEventListener('click', () => {
         manual.classList.add('modo_active')
@@ -18,6 +18,14 @@ function click_modo() {
         });
     });
 
+}
+modo_manual()
+
+function modo_auto() {
+    const manual = document.querySelector('.manual')
+    const auto = document.querySelector('.auto')
+
+
     auto.addEventListener('click', () => {
         auto.classList.add('modo_active')
         manual.classList.remove('modo_active')
@@ -33,4 +41,4 @@ function click_modo() {
         });
     });
 }
-click_modo()
+modo_auto()

@@ -1,21 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="/cassino/public/imgs/icon_logo.png"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="../src/App.css" />
-    <title>CreativeNURV Games</title>
-  </head>
 
-  <body>
-    <div class="container">
-      <header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="/cassino/public/imgs/icon_logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="../src/App.css" />
+  <title>CreativeNURV Games</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
       <div class="left_top">
         <div class="cassino">
           <img src="/cassino/public/imgs/ficha-de-cassino.png" />
@@ -24,42 +21,60 @@
         <!-- <div class="esportes">esportes</div>
             <div class="etc">algo</div> -->
       </div>
-      <a
-        href="http://127.0.0.1:5500/cassino/public/index.html"
-        class="center_top"
-        >CreativeNURV Games</a
-      >
+      <a href="http://127.0.0.1:5500/cassino/public/index.html" class="center_top">CreativeNURV Games</a>
       <div class="right_top">
-        <a href="" class="login">Login</a>
+        <div class="login"> Login </div>
         <a href="http://127.0.0.1:5500/cassino/public/paginas/formulario_cadastro.html" class="sign_up">Cadastrar</a>
       </div>
     </header>
+    <!-- LOGIN -->
+    <div class="container_login">
+      <div class="content_login">
+        <div class="titulo_login">
+          <h2>Login na NURV</h2>
+          <div class="cancelar_login">
+            <img src="/cassino/public/imgs/x.png" />
+          </div>
+        </div>
+        <form class="div_login" method="post">
+          <div class="form_email">
+            <label for="form_email">Email</label>
+            <input type="email" id="form_email" />
+          </div>
+          <div class="form_senha" id="password">
+            <label for="input_password">Senha</label>
+            <input type="password" id="input_password" />
+          </div>
+          <button class="button_login" type="submit" id="button_login">
+            Entrar
+          </button>
+          <a href="#">Esqueceu a senha?</a>
+          <div class="outras_opcoes_login">
+            <div class="titulo_outras_opcoes">Entrar com</div>
+            <div class="outras_opcoes">
+              <a href="#" class="opcao_google">
+                <img src="/cassino/public/imgs/google.png" alt="google" />
+              </a>
+              <a href="#" class="opcao_facebook">
+                <img src="/cassino/public/imgs/instagram.png" alt="facebook" />
+              </a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- LOGIN -->
     <div class="sidebar">
       <div class="top_side">
-        <a
-          href
-          link="http://127.0.0.1:5500/cassino/public/paginas/crash.html"
-          class="jogo"
-          id="crash"
-        >
+        <a href link="http://127.0.0.1:5500/cassino/public/paginas/crash.html" class="jogo" id="crash">
           <img src="/cassino/public/imgs/crash.png" />
           <span>Crash</span>
         </a>
-        <a
-          href
-          link="http://127.0.0.1:5500/cassino/public/paginas/roleta.html"
-          class="jogo"
-          id="roleta"
-        >
+        <a href link="http://127.0.0.1:5500/cassino/public/paginas/roleta.html" class="jogo" id="roleta">
           <img src="/cassino/public/imgs/roleta.png" />
           <span>Roleta</span>
         </a>
-        <a
-          href
-          link="http://127.0.0.1:5500/cassino/public/paginas/black_jack.html"
-          class="jogo"
-          id="black_jack"
-        >
+        <a href link="http://127.0.0.1:5500/cassino/public/paginas/black_jack.html" class="jogo" id="black_jack">
           <img src="/cassino/public/imgs/black_jack.png" />
           <span>Black Jack</span>
         </a>
@@ -76,7 +91,10 @@
           <div class="divisao_home1">
             <div class="texto">
               <h1>Desenvolvimento de estratégia online</h1>
-              <h2>Nossa missão é radicalizar toda ideia fajuta de marketing digital!</h2>
+              <h2>
+                Nossa missão é radicalizar toda ideia fajuta de marketing
+                digital!
+              </h2>
             </div>
             <div class="icone">
               <img src="/cassino/public/imgs/caca-niqueis (1) - branco.png" />
@@ -88,7 +106,10 @@
             </div>
             <div class="texto">
               <h1>Desenvolvimento de estratégia online</h1>
-              <h2>Nossa missão é radicalizar toda ideia fajuta de marketing digital!</h2>
+              <h2>
+                Nossa missão é radicalizar toda ideia fajuta de marketing
+                digital!
+              </h2>
             </div>
           </div>
           <div class="divisao_home3">
@@ -100,8 +121,7 @@
               </a>
               <a href="https://www.instagram.com/creativenurv/" class="creative_nurv">
                 <h2>Creative NURV</h2>
-                <p>Agência de soluções digitais
-                </p>
+                <p>Agência de soluções digitais</p>
               </a>
             </div>
             <div class="icone">
@@ -115,11 +135,7 @@
           <div class="contato">
             <div class="icon_logo">
               <img src="/cassino/public/imgs/icon_logo.png" />
-              <a
-                href="http://127.0.0.1:5500/cassino/public/index.html"
-                class="nome_site"
-                >CreativeNURV Games</a
-              >
+              <a href="http://127.0.0.1:5500/cassino/public/index.html" class="nome_site">CreativeNURV Games</a>
             </div>
             <div class="redes_sociais">
               <a href="https://www.instagram.com/creativenurv/" class="instagram">
@@ -151,9 +167,7 @@
             <div class="div_titulo">Sobre Nós</div>
             <div class="links">
               <a href="" class="termos">Termos</a>
-              <a href="" class="politica_de_privacidade"
-                >Política de Privacidade</a
-              >
+              <a href="" class="politica_de_privacidade">Política de Privacidade</a>
               <a href="" class="central_de_apoio">Central de Apoio</a>
             </div>
           </div>
@@ -197,10 +211,13 @@
         </div>
       </footer>
     </div>
-    </div><!--container-->
-    
-    <script src="/cassino/src/App.js"></script>
-    <script src="/cassino/src/modo_active.js"></script>
-    <script src="/cassino/src/conteudo.js"></script>
-  </body>
+  </div>
+  <!--container-->
+
+  <script src="/cassino/src/App.js"></script>
+  <script src="/cassino/src/modo_active.js"></script>
+  <script src="/cassino/src/conteudo.js"></script>
+  <script src="/cassino/src/login.js"></script>
+</body>
+
 </html>
